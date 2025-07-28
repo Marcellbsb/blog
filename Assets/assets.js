@@ -1,7 +1,25 @@
 import logo from '../Assets/logo.png';
 import arrow from '../Assets/arrow.png'
 import blog_pic_01 from '../Assets/blog_pic_01.png'
+import blog_pic_02 from '../Assets/blog_pic_02.png'
 import profile_icon from '../Assets/profile_icon.png'
+import blog_pic_03 from '../Assets/blog_pic_03.png'
+import blog_pic_04 from '../Assets/blog_pic_04.png'
+import blog_pic_05 from '../Assets/blog_pic_05.png'
+import blog_pic_06 from '../Assets/blog_pic_06.png'
+import blog_pic_07 from '../Assets/blog_pic_07.png'
+import blog_pic_08 from '../Assets/blog_pic_08.png'
+import blog_pic_09 from '../Assets/blog_pic_09.png'
+import blog_pic_10 from '../Assets/blog_pic_10.png'
+import blog_pic_11 from '../Assets/blog_pic_11.png'
+import blog_pic_12 from '../Assets/blog_pic_12.png'
+import blog_pic_13 from '../Assets/blog_pic_13.png'
+import blog_pic_14 from '../Assets/blog_pic_14.png'
+import blog_pic_15 from '../Assets/blog_pic_15.png'
+import blog_pic_16 from '../Assets/blog_pic_16.png'
+import blog_pic_17 from '../Assets/blog_pic_17.png'
+import blog_pic_18 from '../Assets/blog_pic_18.png'
+
 
 
 
@@ -13,11 +31,29 @@ export const assets ={
     arrow,
     profile_icon,
     blog_pic_01,
+    blog_pic_02,
+    blog_pic_03,
+    blog_pic_04,
+    blog_pic_05,
+    blog_pic_06,
+    blog_pic_07,
+    blog_pic_08,
+    blog_pic_09,
+    blog_pic_10,
+    blog_pic_11,
+    blog_pic_12,
+    blog_pic_13,
+    blog_pic_14,
+    blog_pic_15,
+    blog_pic_16,
+    blog_pic_17,
+    blog_pic_18
     
 }
 
 
 export const blog_data = [ 
+
 {
     id:1,
     title: 'A detailed step by step guide to manage your lifestyle',
@@ -30,17 +66,215 @@ export const blog_data = [
 
 },
 
-
 {
     id:2,
     title: 'A detailed step by step guide to manage your lifestyle',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
-    image: 'blog_pic_02',
+    image:blog_pic_02,
+    date: Date.now(),
+    category: 'Startup',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:3,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_03,
+    date: Date.now(),
+    category: 'Technology',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:4,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_04,
     date: Date.now(),
     category: 'Lifestyle',
     author: 'Kerollayne Ramos',
     author_img: profile_icon
 
+},
+
+{
+    id:5,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_05,
+    date: Date.now(),
+    category: 'Lifestyle',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:6,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_06,
+    date: Date.now(),
+    category: 'Startup',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:7,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_07,
+    date: Date.now(),
+    category: 'Lifestyle',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:8,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_08,
+    date: Date.now(),
+    category: 'Technology',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:9,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_09,
+    date: Date.now(),
+    category: 'Startup',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:10,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_10,
+    date: Date.now(),
+    category: 'Startup',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:11,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_11,
+    date: Date.now(),
+    category: 'Technology',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:12,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_12,
+    date: Date.now(),
+    category: 'Startup',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:13,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_13,
+    date: Date.now(),
+    category: 'Startup',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:14,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_14,
+    date: Date.now(),
+    category: 'Technology',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:15,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_15,
+    date: Date.now(),
+    category: 'Lifestyle',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:16,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_16,
+    date: Date.now(),
+    category: 'Technology',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:17,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_17,
+    date: Date.now(),
+    category: 'Lifestyle',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
+},
+
+{
+    id:18,
+    title: 'A detailed step by step guide to manage your lifestyle',
+    description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
+    image:blog_pic_18,
+    date: Date.now(),
+    category: 'Technology',
+    author: 'Kerollayne Ramos',
+    author_img: profile_icon
+
 }
+
+
+
+
+
+
+
 
 ]
