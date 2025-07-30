@@ -78,7 +78,7 @@ export const blog_data = [
 
 {
     id:2,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'The future of startups around in the vulnerables countries',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_02,
     date: Date.now(),
@@ -90,7 +90,7 @@ export const blog_data = [
 
 {
     id:3,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'A Thechnology and your faces',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_03,
     date: Date.now(),
@@ -102,7 +102,7 @@ export const blog_data = [
 
 {
     id:4,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'The Life of Dreams',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_04,
     date: Date.now(),
@@ -114,7 +114,7 @@ export const blog_data = [
 
 {
     id:5,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'Remote Life - A safe alternative?',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_05,
     date: Date.now(),
@@ -126,7 +126,7 @@ export const blog_data = [
 
 {
     id:6,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'A sucess startup',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_06,
     date: Date.now(),
@@ -138,7 +138,7 @@ export const blog_data = [
 
 {
     id:7,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'One big sucess moment',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_07,
     date: Date.now(),
@@ -150,7 +150,7 @@ export const blog_data = [
 
 {
     id:8,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'The IA future on Hospital Medicine',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_08,
     date: Date.now(),
@@ -162,7 +162,7 @@ export const blog_data = [
 
 {
     id:9,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'A startup of one milion dollars',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_09,
     date: Date.now(),
@@ -174,7 +174,7 @@ export const blog_data = [
 
 {
     id:10,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'The big transformation of secule',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_10,
     date: Date.now(),
@@ -186,7 +186,7 @@ export const blog_data = [
 
 {
     id:11,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'The technology will be the future of last gerations',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_11,
     date: Date.now(),
@@ -198,7 +198,7 @@ export const blog_data = [
 
 {
     id:12,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'Making things of sucess',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_12,
     date: Date.now(),
@@ -210,7 +210,7 @@ export const blog_data = [
 
 {
     id:13,
-    title: 'A detailed step by step guide to manage your lifestyle',
+    title: 'The revolution medicine startup of july month',
     description: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore nemo, animi illo blanditiis vel dicta minima dignissimos doloribus atque accusamus sint distinctio facilis quas ducimus quam fugit, natus quidem. Deleniti?',
     image:blog_pic_13,
     date: Date.now(),
