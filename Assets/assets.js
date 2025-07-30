@@ -19,6 +19,11 @@ import blog_pic_15 from '../Assets/blog_pic_15.png'
 import blog_pic_16 from '../Assets/blog_pic_16.png'
 import blog_pic_17 from '../Assets/blog_pic_17.png'
 import blog_pic_18 from '../Assets/blog_pic_18.png'
+import logo_light from '../Assets/logo_light.png'
+import facebook_icon from '../Assets/facebook_icon.png'
+import youtube_icon from '../Assets/youtube_icon.png'
+import instagram_icon from '../Assets/instagram_icon.png'
+
 
 
 
@@ -47,7 +52,12 @@ export const assets ={
     blog_pic_15,
     blog_pic_16,
     blog_pic_17,
-    blog_pic_18
+    blog_pic_18,
+    logo_light,
+    facebook_icon,
+    youtube_icon,
+    instagram_icon,
+
     
 }
 
