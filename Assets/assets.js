@@ -23,6 +23,7 @@ import logo_light from '../Assets/logo_light.png'
 import facebook_icon from '../Assets/facebook_icon.png'
 import youtube_icon from '../Assets/youtube_icon.png'
 import instagram_icon from '../Assets/instagram_icon.png'
+import add_icon from '../Assets/add_icon.png'
 
 
 
@@ -57,6 +58,7 @@ export const assets ={
     facebook_icon,
     youtube_icon,
     instagram_icon,
+    add_icon,
 
     
 }
