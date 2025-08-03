@@ -24,12 +24,9 @@ import facebook_icon from '../Assets/facebook_icon.png'
 import youtube_icon from '../Assets/youtube_icon.png'
 import instagram_icon from '../Assets/instagram_icon.png'
 import add_icon from '../Assets/add_icon.png'
-
-
-
-
-
-
+import email_icon from '../Assets/email_icon.png'
+import blog_icon from '../Assets/blog_icon.png'
+import upload_area from '../Assets/upload_area.png'
 
 
 export const assets ={
@@ -59,6 +56,9 @@ export const assets ={
     youtube_icon,
     instagram_icon,
     add_icon,
+    email_icon,
+    blog_icon,
+    upload_area,
 
     
 }
