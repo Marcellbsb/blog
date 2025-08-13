@@ -2,6 +2,7 @@
 
 import { assets } from "@/Assets/assets";
 import axios from "axios";
+import { set } from "mongoose";
 // import { set } from "mongoose"; // Remova esta importação se não estiver usando
 import Image from "next/image";
 import React, { useState, useEffect } from "react"; // Adicione useEffect para depuração
@@ -32,10 +33,18 @@ const Page = () => { // Boa prática: nome de componente começa com maiúscula
     formData.append ('category', data.category);
     formData.append ('author', data.author);
      formData.append ('authorImg', data.authorImg);
-      formData.append ('image',image);
+      formData.append ('image', image);
       const response = await axios.post ('/api/blog',formData);
       if (response.data.sucess) {
-        toast.success (response.data.msg)
+        toast.success (response.data.msg);
+        setImage (false);
+        setData ({
+           title:"",
+           description:"",
+           category:"Lifestyle",
+           author:"Kerollayne Ramos",
+           authorImg:"/author_img.png",
+          });
 
       } else {
         toast.error ("Error");

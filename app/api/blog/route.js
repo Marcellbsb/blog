@@ -1,23 +1,29 @@
 import { ConnectDB } from "@/lib/config/db";
-import { writeFile, mkdir } from 'fs/promises'; // Corrigido para minúsculo e adicionado mkdir
+import { writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from "next/server"; 
 import BlogModel from "@/lib/models/BlogModels";
 
-// Carrega a conexão com o DB 
+// Conexão com o DB 
 const LoadDB = async () => {
     await ConnectDB();
 }
 LoadDB();
 
-// Extensões permitidas e tamanho máximo (novas adições)
+// Extensõe e tamanho máximo
 const ALLOWED_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp'];
 const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
+//API Endpoint to Get All Blogs
 export async function GET(request) {
-    return NextResponse.json({ msg: 'API working' });
+
+    const blogs = await BlogModel.find ( { } );
+
+    return NextResponse.json({blogs});
 }
 
+
+//API Endpoint for Uploading Blogs
 export async function POST(request) {
     try {
         const formData = await request.formData();
@@ -55,7 +61,7 @@ export async function POST(request) {
         
         // Caminhos mais seguros 
         const publicDir = join(process.cwd(), 'public', 'uploads');
-        await mkdir(publicDir, { recursive: true }); // Garante que a pasta existe
+        await mkdir(publicDir, { recursive: true }); 
         
         const sanitizedFilename = image.name.replace(/[^a-zA-Z0-9_.-]/g, ''); // Segurança
         const filename = `${timestamp}_${sanitizedFilename}`;
