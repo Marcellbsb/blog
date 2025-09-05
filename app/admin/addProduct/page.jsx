@@ -92,4 +92,4 @@ const Page = () => { // Boa prática: nome de componente começa com maiúscula
    )
 }
 
-export default Page; // Exportando o componente com o nome de convenção
+export default Page; 

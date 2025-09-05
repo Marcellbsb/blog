@@ -16,10 +16,17 @@ const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
 
 //API Endpoint to Get All Blogs
 export async function GET(request) {
-
-    const blogs = await BlogModel.find ( { } );
-
+    const blogId = request.nextUrl.searchParams.get ("id");
+    if (blogId) {
+        const blog = await BlogModel.findById (blogId);
+        return NextResponse.json (blog);
+    }
+    else {
+        const blogs = await BlogModel.find ( { } );
     return NextResponse.json({blogs});
+    }
+
+    
 }
 
 
@@ -76,7 +83,7 @@ export async function POST(request) {
         description: `${formData.get ('description')}`,
         category: `${formData.get ('category')}`,
         author: `${formData.get ('author')}`,
-        image: `${'imageUrl'}`,
+        image: imgUrl,
         authorImg:`${formData.get ('authorImg')}`
 
     }
