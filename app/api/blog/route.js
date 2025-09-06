@@ -3,6 +3,7 @@ import { writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 import { NextResponse } from "next/server"; 
 import BlogModel from "@/lib/models/BlogModels";
+const fs = require ('fs')
 
 // Conexão com o DB 
 const LoadDB = async () => {
@@ -12,7 +13,7 @@ LoadDB();
 
 // Extensõe e tamanho máximo
 const ALLOWED_EXTENSIONS = ['png', 'jpg', 'jpeg', 'webp'];
-const MAX_FILE_SIZE = 5 * 1024 * 1024; // 5MB
+const MAX_FILE_SIZE = 5 * 2024 * 2024; // 5MB
 
 //API Endpoint to Get All Blogs
 export async function GET(request) {
@@ -103,5 +104,15 @@ export async function POST(request) {
 
    
 
+}
+
+// Create API Endpoint to delete Blog
+
+export async function DELETE  (request) {
+    const id = await request.nextUrl.searchParams.get ('id');
+    const blog = await BlogModel.findById(id);
+    fs.unlink(`./public${blog.image}`,()=>{});
+    await BlogModel.findByIdAndDelete(id);
+    return NextResponse.json ({msg:"Blog Deleted"});
 }
 
